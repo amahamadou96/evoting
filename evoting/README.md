@@ -1,4 +1,7 @@
 # 🗳️ Mini E-Voting — Flask & MySQL
+Nom : Mahamadou Soumaila
+Prenom : Abdoulahi 
+Tp: Persistance des données avec Flask & MySQL 
 <img width="1918" height="774" alt="image" src="https://github.com/user-attachments/assets/a4c2d304-37a3-4de1-8a54-1daa6d419183" />
 
 
