@@ -31,6 +31,7 @@ flask run
 
 ## Tests Postman
 <img width="1919" height="1079" alt="Capture d&#39;écran 2026-04-06 223714" src="https://github.com/user-attachments/assets/3f690785-7ba5-45e3-b5d3-b7a92c953d02" />
+<img width="1088" height="661" alt="image" src="https://github.com/user-attachments/assets/88e917bc-50f6-4cdc-bd3a-2f7391539520" />
 
 <img width="1105" height="824" alt="Capture d&#39;écran 2026-04-06 224126" src="https://github.com/user-attachments/assets/06ea3dc8-af13-4c68-99f9-0bdbc31e01b4" />
 <img width="1027" height="681" alt="Capture d&#39;écran 2026-04-06 225411" src="https://github.com/user-attachments/assets/42b2f1ee-41d4-4c0f-a121-06f6811f6bdf" />
@@ -40,8 +41,8 @@ flask run
 - **POST** `http://127.0.0.1:5000/electeurs`
 ```json
 {
-  "nom": "Ali",
-  "email": "ali@test.com",
+  "nom": "Abdoulahi",
+  "email": "mahamadouabdoulahi566@gmail.com",
   "mot_de_passe": "1234"
 }
 ```
