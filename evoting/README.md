@@ -1,4 +1,6 @@
 # 🗳️ Mini E-Voting — Flask & MySQL
+<img width="1918" height="774" alt="image" src="https://github.com/user-attachments/assets/a4c2d304-37a3-4de1-8a54-1daa6d419183" />
+
 
 ## Installation
 
@@ -28,6 +30,11 @@ flask run
 ```
 
 ## Tests Postman
+<img width="1919" height="1079" alt="Capture d&#39;écran 2026-04-06 223714" src="https://github.com/user-attachments/assets/3f690785-7ba5-45e3-b5d3-b7a92c953d02" />
+
+<img width="1105" height="824" alt="Capture d&#39;écran 2026-04-06 224126" src="https://github.com/user-attachments/assets/06ea3dc8-af13-4c68-99f9-0bdbc31e01b4" />
+<img width="1027" height="681" alt="Capture d&#39;écran 2026-04-06 225411" src="https://github.com/user-attachments/assets/42b2f1ee-41d4-4c0f-a121-06f6811f6bdf" />
+
 
 ### 1. Créer un électeur
 - **POST** `http://127.0.0.1:5000/electeurs`
@@ -66,6 +73,8 @@ flask run
 ```
 
 ### 5. Voir les résultats
+<img width="679" height="189" alt="Capture d&#39;écran 2026-04-06 225855" src="https://github.com/user-attachments/assets/7ea5ba42-af0f-48ee-bdf9-84853f10f9ab" />
+
 - **GET** `http://127.0.0.1:5000/resultats/1`
 
 ### 6. Lister tous les électeurs
