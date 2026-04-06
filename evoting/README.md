@@ -1,7 +1,8 @@
 # 🗳️ Mini E-Voting — Flask & MySQL
-Nom : Mahamadou Soumaila
-Prenom : Abdoulahi 
-Tp: Persistance des données avec Flask & MySQL 
+### Nom : Mahamadou Soumaila
+### Prenom : Abdoulahi 
+### Classe : L2CS
+### Tp: Persistance des données avec Flask & MySQL 
 <img width="1918" height="774" alt="image" src="https://github.com/user-attachments/assets/a4c2d304-37a3-4de1-8a54-1daa6d419183" />
 
 
@@ -22,6 +23,9 @@ SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:VOTRE_MOT_DE_PASSE@localhost/evo
 ```bash
 # 1. Créer la base de données MySQL
 mysql -u root -p -e "CREATE DATABASE evoting_db;"
+
+<img width="822" height="464" alt="image" src="https://github.com/user-attachments/assets/b0a6187d-9c57-461e-8ecf-bc12c82a0586" />
+
 
 # 2. Migrations
 flask db init
