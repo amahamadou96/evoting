@@ -1,0 +1,96 @@
+{
+  "info": {
+    "name": "Mini E-Voting API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "1. Créer un électeur",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nom\": \"Ali\",\n  \"email\": \"ali@test.com\",\n  \"mot_de_passe\": \"1234\"\n}"
+        },
+        "url": { "raw": "http://127.0.0.1:5000/electeurs", "host": ["127.0.0.1"], "port": "5000", "path": ["electeurs"] }
+      }
+    },
+    {
+      "name": "2. Lister les électeurs",
+      "request": {
+        "method": "GET",
+        "url": { "raw": "http://127.0.0.1:5000/electeurs", "host": ["127.0.0.1"], "port": "5000", "path": ["electeurs"] }
+      }
+    },
+    {
+      "name": "3. Créer une élection",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"titre\": \"Election Président 2025\"\n}"
+        },
+        "url": { "raw": "http://127.0.0.1:5000/elections", "host": ["127.0.0.1"], "port": "5000", "path": ["elections"] }
+      }
+    },
+    {
+      "name": "4. Lister les élections",
+      "request": {
+        "method": "GET",
+        "url": { "raw": "http://127.0.0.1:5000/elections", "host": ["127.0.0.1"], "port": "5000", "path": ["elections"] }
+      }
+    },
+    {
+      "name": "5. Créer un candidat",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nom\": \"Candidat A\",\n  \"election_id\": 1\n}"
+        },
+        "url": { "raw": "http://127.0.0.1:5000/candidats", "host": ["127.0.0.1"], "port": "5000", "path": ["candidats"] }
+      }
+    },
+    {
+      "name": "6. Lister les candidats",
+      "request": {
+        "method": "GET",
+        "url": { "raw": "http://127.0.0.1:5000/candidats", "host": ["127.0.0.1"], "port": "5000", "path": ["candidats"] }
+      }
+    },
+    {
+      "name": "7. Voter",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"electeur_id\": 1,\n  \"candidat_id\": 1\n}"
+        },
+        "url": { "raw": "http://127.0.0.1:5000/vote", "host": ["127.0.0.1"], "port": "5000", "path": ["vote"] }
+      }
+    },
+    {
+      "name": "8. Voter une 2ème fois (doit échouer)",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"electeur_id\": 1,\n  \"candidat_id\": 1\n}"
+        },
+        "url": { "raw": "http://127.0.0.1:5000/vote", "host": ["127.0.0.1"], "port": "5000", "path": ["vote"] }
+      }
+    },
+    {
+      "name": "9. Résultats élection 1",
+      "request": {
+        "method": "GET",
+        "url": { "raw": "http://127.0.0.1:5000/resultats/1", "host": ["127.0.0.1"], "port": "5000", "path": ["resultats", "1"] }
+      }
+    }
+  ]
+}
