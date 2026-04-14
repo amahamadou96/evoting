@@ -101,3 +101,16 @@ evoting/
 ├── requirements.txt
 └── templates/
 ```
+### interface graphique 
+<img width="1919" height="951" alt="image" src="https://github.com/user-attachments/assets/ea248a2c-81e0-494e-86f2-004303546f11" />
+<img width="1914" height="686" alt="image" src="https://github.com/user-attachments/assets/60673818-9edc-405c-94fb-13546163816f" />
+<img width="1919" height="598" alt="image" src="https://github.com/user-attachments/assets/f9e4f45f-81d8-47b3-b267-b979fee6d462" />
+<img width="1913" height="535" alt="image" src="https://github.com/user-attachments/assets/7d3662a6-e935-42ec-82af-b4326cf70337" />
+<img width="1892" height="570" alt="image" src="https://github.com/user-attachments/assets/d8aeae0e-a2b2-49cc-b0d0-61e0bec44fde" />
+<img width="1910" height="773" alt="image" src="https://github.com/user-attachments/assets/42d03295-3ef7-4f86-82ef-3801a17fa410" />
+
+
+
+
+
+
